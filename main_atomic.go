@@ -7,6 +7,12 @@ import (
 	"time"
 )
 
+//$ go run -race main_atomic.go
+//954203
+//
+//$ go run main_atomic.go
+//1000000
+
 type atomicCounter struct {
 	val int64
 }

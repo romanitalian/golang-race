@@ -6,6 +6,12 @@ import (
 	"fmt"
 )
 
+//$ go run -race main_mutex.go
+//610917
+//
+//$ go run main_mutex.go
+//1000000
+
 type mutexCounter struct {
 	mu sync.Mutex
 	x int64
