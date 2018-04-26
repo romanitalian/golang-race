@@ -41,5 +41,25 @@ exit status 66
 ```
 
 ### For tag: 0.0.2
+Default run
+>`$ go run main_atomic.go`
 
-@todo add description
+>`1000000`
+
+
+With flag "-race"
+>`$ go run -race main_atomic.go`
+
+>`963237`
+
+### For tag: 0.0.3
+
+Default run
+>`$ go run main_mutex.go`
+
+> `1000000`
+
+With flag "-race"
+> `$ go run -race main_mutex.go`
+
+> `610917`
