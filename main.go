@@ -25,3 +25,4 @@ func main() {
 	time.Sleep(time.Second)
 	fmt.Println(counter.Value())
 }
+
