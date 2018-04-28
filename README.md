@@ -63,3 +63,15 @@ With flag "-race"
 > `$ go run -race main_mutex.go`
 
 > `610917`
+
+
+### For tag: 0.0.4
+
+>`$ go run main_waitgroup.go`
+
+> `1000000`
+
+With flag "-race"
+> `$ go run -race main_waitgroup.go`
+
+> `1000000`
